@@ -46,7 +46,7 @@ body {
 }
 .hero-section {
    width: 1400px;
-   margin: 130px auto;
+   margin: 110px auto;
    display: flex;
    justify-content: space-between;
 }
@@ -209,6 +209,18 @@ body {
     justify-content: start;
     cursor: pointer;
 }
+.orange-blob {
+    position: absolute;
+    top: 356vh;
+    left: 0;
+}
+
+.green-blob {
+    position: absolute;
+    top: 385vh;
+    right: 0;
+}
+
 /* The end of Section-three */
 
 /* Section four */
