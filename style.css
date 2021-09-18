@@ -44,9 +44,12 @@ body {
 .section-one nav ul li a {
     text-decoration: none;
 }
+.section-one nav ul li a:hover {
+    filter: hue-rotate(70deg);
+}
 .hero-section {
    width: 1400px;
-   margin: 130px auto;
+   margin: 110px auto;
    display: flex;
    justify-content: space-between;
 }
@@ -88,6 +91,19 @@ body {
     transform: rotate(180deg);
     height: 350px;
 }
+.chat {
+    width: 80px;
+    position: fixed;
+    top: 90vh;
+    left: 94%;
+    border-radius: 19px 10px 18px 6px;
+    background-color: #828292;
+    color: #f1edf9;
+    font-weight: bold;
+}
+.chat p {
+    padding: 20px;
+}
 /* The end of section one */
 
 /* Section-two */
@@ -125,6 +141,11 @@ body {
     top: 100vh;
     left: 50%;
     transform: translate(-50%);
+}
+.section-two .features-btn:hover {
+    margin-right: 4px;
+    filter: hue-rotate(70deg);
+    transition: 300ms;
 }
 /* The end of section two */
 
@@ -209,6 +230,18 @@ body {
     justify-content: start;
     cursor: pointer;
 }
+.orange-blob {
+    position: absolute;
+    top: 356vh;
+    left: 0;
+}
+
+.green-blob {
+    position: absolute;
+    top: 385vh;
+    right: 0;
+}
+
 /* The end of Section-three */
 
 /* Section four */
@@ -275,6 +308,11 @@ body {
 .footer-wrapper ul li a {
     text-decoration: none;
     color: var(--white);
+}
+.footer .btn:hover {
+    background-color: #673AB7;
+    border: 1px solid #f1edf9;
+    transition: 300ms;
 }
 .footer-wrapper ul li .opacity {
     opacity: 0.6;
