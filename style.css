@@ -44,6 +44,9 @@ body {
 .section-one nav ul li a {
     text-decoration: none;
 }
+.section-one nav ul li a:hover {
+    filter: hue-rotate(70deg);
+}
 .hero-section {
    width: 1400px;
    margin: 110px auto;
@@ -125,6 +128,11 @@ body {
     top: 100vh;
     left: 50%;
     transform: translate(-50%);
+}
+.section-two .features-btn:hover {
+    margin-right: 4px;
+    filter: hue-rotate(70deg);
+    transition: 300ms;
 }
 /* The end of section two */
 
@@ -287,6 +295,11 @@ body {
 .footer-wrapper ul li a {
     text-decoration: none;
     color: var(--white);
+}
+.footer .btn:hover {
+    background-color: #673AB7;
+    border: 1px solid #f1edf9;
+    transition: 300ms;
 }
 .footer-wrapper ul li .opacity {
     opacity: 0.6;
