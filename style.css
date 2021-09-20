@@ -147,11 +147,21 @@ body {
     left: 50%;
     transform: translate(-50%);
 }
-.section-two .features-btn:hover {
-    margin-right: 4px;
-    filter: hue-rotate(70deg);
-    transition: 300ms;
+.section-two .features-btn {
+    animation: btn infinite 2s ;
+    
 }
+@keyframes btn {
+    0% {margin-right: 10px;
+        filter: hue-rotate(70deg);
+        }
+    50% {margin-right: 5px;
+            filter: hue-rotate(70deg);
+           }
+    100% {margin-right: 0px;
+        filter: hue-rotate(70deg);
+       }
+  }
 /* The end of section two */
 
 /* Section-three */
@@ -325,3 +335,89 @@ body {
     font-weight: bold;
 }
 /* The end of section four */
+
+/* Page two */
+.hero-page-two {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.right-hero {
+    position: absolute;
+    left: 55%;
+    top: 20%;
+}
+.right-hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.right-hero p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    opacity: 0.7;
+}
+.right-hero .pumble {
+    margin-left: -10px;
+}
+.apple {
+height: 500px;
+width: 700px;
+position: absolute;
+top: 10%;
+}
+.page-two-section-two {
+    position: relative;
+}
+.page-two-section-two h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.page-two-section-two img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 130px;
+    margin-top: 100px;
+}
+.page-two-section-three {
+    position: relative;
+    top: 50vh;
+}
+.page-two-section-three .images {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.page-two-section-three h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.page-two-section-four {
+    position: relative;
+    top: 60vh;
+}
+.page-two-section-four .left-images {
+    margin-left: 60px;
+}
+.page-two-section-four h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.page-two-section-four .images-four {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.page-two-section-five {
+    position: relative;
+    top: 80vh;
+}
+.page-two-section-five .images-five {
+    margin-left: 120px;
+ 
+}
+.page-two-section-five .right {
+    width: 550px;
+}
+.page-two-section-five a img {
+    margin-top: 60px;
+    margin-left: 560px;
+}
