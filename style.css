@@ -149,11 +149,12 @@ body {
 }
 .section-two .features-btn {
     animation: btn infinite 2s ;
+    filter: hue-rotate(0deg);
     
 }
 @keyframes btn {
     0% {margin-right: 10px;
-        filter: hue-rotate(70deg);
+        filter: hue-rotate(0deg);
         }
     50% {margin-right: 5px;
             filter: hue-rotate(70deg);
