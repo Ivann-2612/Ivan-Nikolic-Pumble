@@ -149,11 +149,12 @@ body {
 }
 .section-two .features-btn {
     animation: btn infinite 2s ;
+    filter: hue-rotate(0deg);
     
 }
 @keyframes btn {
     0% {margin-right: 10px;
-        filter: hue-rotate(70deg);
+        filter: hue-rotate(0deg);
         }
     50% {margin-right: 5px;
             filter: hue-rotate(70deg);
@@ -382,9 +383,10 @@ top: 10%;
 .page-two-section-three {
     position: relative;
     top: 50vh;
+   
 }
 .page-two-section-three .images {
-    margin-left: 100px;
+    margin-left: 230px;
     margin-top: 100px;
 }
 .page-two-section-three h1 {
@@ -403,7 +405,7 @@ top: 10%;
     text-align: center;
 }
 .page-two-section-four .images-four {
-    margin-left: 100px;
+    margin-left: 230px;
     margin-top: 100px;
 }
 .page-two-section-five {
@@ -411,7 +413,7 @@ top: 10%;
     top: 80vh;
 }
 .page-two-section-five .images-five {
-    margin-left: 120px;
+    margin-left: 230px;
  
 }
 .page-two-section-five .right {
@@ -419,5 +421,5 @@ top: 10%;
 }
 .page-two-section-five a img {
     margin-top: 60px;
-    margin-left: 560px;
+    margin-left: 650px;
 }
